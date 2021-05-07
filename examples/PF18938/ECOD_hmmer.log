@@ -1,0 +1,62 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  examples/PF18938/HMM
+# target sequence database:        examples/ecod_domains.fa
+# output directed to file:         examples/PF18938/ECOD_hmmer.log
+# per-dom hits tabular output:     examples/PF18938/ECOD.domtblout
+# domain reporting threshold:      score >= 30
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       SEED  [M=70]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    4.7e-26   77.7   0.3    5.3e-26   77.5   0.3    1.0  1  e5eq2A2   A:123-201 001731826
+      1e-22   67.0   2.5    1.2e-22   66.8   2.5    1.1  1  e3qc6X3   X:275-351 000958975
+
+
+Domain annotation for each sequence (and alignments):
+>> e5eq2A2  A:123-201 001731826
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   77.5   0.3   5.3e-26   5.3e-26       2      69 ..       6      74 ..       5      75 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 77.5 bits;  conditional E-value: 5.3e-26
+     SEED  2 elniPdkveVkdpkkLtdeEKekVkkaikkaNkdk.kgteieVdddGtvtitykDgskdtipgedlvkk 69
+             ++  P+ + V+  ++L+++EK++V++a+++aN+++  ++ i+V+ +Gtvtity+D s+dti+++++vk+
+  e5eq2A2  6 NPADPTITYVDRLSSLSPSEKNAVEAAVRAANPQIpAAARITVSANGTVTITYPDSSTDTITANRVVKD 74
+             5677999*****************************9******************************95 PP
+
+>> e3qc6X3  X:275-351 000958975
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.8   2.5   1.2e-22   1.2e-22       2      64 ..       5      77 .]       4      77 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 66.8 bits;  conditional E-value: 1.2e-22
+     SEED  2 elniP.dkveVkdpkkLtdeEKekVkkaikkaNkdk.........kgteieVdddGtvtitykDgskdtipge 64
+              ++ P + v V++p++Lt+ EK+ V++a+kk N+d+           t+i+V+++Gt+tity Dg kd i+g+
+  e3qc6X3  5 RIKTPeNTVFVNNPNQLTEVEKNLVREAVKKSNPDLraqdvlnsnYVTGITVSNNGTTTITYRDGRKDIIDGS 77
+             5899*99*****************************8887776666666*********************985 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (70 nodes)
+Target sequences:                          2  (156 residues searched)
+Passed MSV filter:                         2  (1); expected 0.0 (0.02)
+Passed bias filter:                        2  (1); expected 0.0 (0.02)
+Passed Vit filter:                         2  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         2  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  2  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 11.26
+//
+[ok]

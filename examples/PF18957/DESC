@@ -1,0 +1,15 @@
+ID   RibLong
+AC   PF18957
+DE   Long Rib domain
+AU   Bateman A;0000-0002-6982-4660
+SE   Bateman A
+GA   27.00 27.00;
+TC   27.00 27.00;
+NC   26.90 26.90;
+BM   hmmbuild  -o /dev/null HMM SEED
+SM   hmmsearch -Z 45638612 -E 1000 --cpu 4 HMM pfamseq
+TP   Domain
+CL   CL0159
+CC   This entry represents the Long Rib domain that is closely related to
+CC   the Pfam:PF08428 Rib domain but has a conserved insertion. These
+CC   domains are found in bacterial cell surface proteins.

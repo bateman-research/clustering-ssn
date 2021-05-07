@@ -1,0 +1,13 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SEARCH
+# Query file:      examples/PF08428/HMM
+# Target file:     examples/ecod_domains.fa
+# Option settings: hmmsearch -o examples/PF08428/ECOD_hmmer.log --domtblout examples/PF08428/ECOD.domtblout --domT 30 examples/PF08428/HMM examples/ecod_domains.fa 
+# Current dir:     /Users/aleixlafita/clustering-ssn
+# Date:            Fri May  7 14:23:34 2021
+# [ok]

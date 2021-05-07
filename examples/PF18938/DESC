@@ -1,0 +1,37 @@
+ID   aRib
+AC   PF18938
+DE   Atypical Rib domain
+AU   Bateman A;0000-0002-6982-4660
+SE   Bateman A
+GA   27.00 27.00;
+TC   27.60 27.60;
+NC   26.90 26.90;
+BM   hmmbuild  -o /dev/null HMM SEED
+SM   hmmsearch -Z 45638612 -E 1000 --cpu 4 HMM pfamseq
+TP   Domain
+CL   CL0159
+RN   [1]
+RM   26833566
+RT   Structural Basis for Sialoglycan Binding by the Streptococcus
+RT   sanguinis SrpA Adhesin.
+RA   Bensing BA, Loukachevitch LV, McCulloch KM, Yu H, Vann KR, Wawrzak Z,
+RA   Anderson S, Chen X, Sullam PM, Iverson TM;
+RL   J Biol Chem. 2016;291:7230-7240.
+RN   [2]
+RM   21765814
+RT   A structural model for binding of the serine-rich repeat adhesin GspB
+RT   to host carbohydrate receptors.
+RA   Pyburn TM, Bensing BA, Xiong YQ, Melancon BJ, Tomasiak TM, Ward NJ,
+RA   Yankovskaya V, Oliver KM, Cecchini G, Sulikowski GA, Tyska MJ, Sullam
+RA   PM, Iverson TM;
+RL   PLoS Pathog. 2011;7:e1002112.
+CC   This entry contains atypical Rib (aRib) domains.  These are found in
+CC   a variety of bacterial cell surface proteins. These proteins share a
+CC   conserved motif with the Rib domain (YPDXXD). The structure of the
+CC   aRib domain has been solved from two proteins, the SrpA adhesin [1]
+CC   and the GspB adhesin [2]. In these proteins this domain has been
+CC   termed the unique domain due to its lack of similarity to any other
+CC   known structures at the time. The aRib domain from SrpA has been
+CC   shown to mediate a dimer interaction [1]. This family has been added
+CC   to the E-set clan based on its similarity to the Rib domain, although
+CC   it does not contain the Ig fold.

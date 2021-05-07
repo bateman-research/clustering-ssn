@@ -1,0 +1,24 @@
+ID   Rib
+AC   PF08428
+DE   Rib domain
+AU   Fenech M;0000-0001-7933-4617
+AU   Bateman A;0000-0002-6982-4660
+SE   Pfam-B_3139 (release 18.0)
+GA   27.00 20.00;
+TC   27.00 20.00;
+NC   26.90 19.90;
+BM   hmmbuild  -o /dev/null HMM SEED
+SM   hmmsearch -Z 45638612 -E 1000 --cpu 4 HMM pfamseq
+TP   Domain
+CL   CL0159
+RN   [1]
+RM   8702550
+RT   Identification of a family of streptococcal surface proteins with
+RT   extremely repetitive structure.
+RA   Wastfelt M, Stalhammar-Carlemalm M, Delisse AM, Cabezon T, Lindahl G;
+RL   J Biol Chem 1996;271:18892-18897.
+CC   The region featured in this family is found repeated in a number of
+CC   bacterial surface proteins, such as Rib (Swiss:P72362) and alpha
+CC   (Swiss:Q02192). These are expressed by group B streptococci, and Rib
+CC   is thought to confer protective immunity.
+ED   Q8E1C4.1/230-305;
