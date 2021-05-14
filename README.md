@@ -17,9 +17,9 @@ Use the help option (-h/--help) on each script to see all the available options.
 Rscript script_name.R -h
 ```
 
-- [blastp_clustering.R](blastp_clustering.R): plot the nucleotide composition and bias profile along the DNA sequence of a gene.
-- [pfam_ssn.R](pfam_ssn.R): plot the amino acid composition and bias profile along a protein sequence.
-- [pfam_pidmat.R](pfam_pidmat.R): analyse the DNA composition for a subset of genes, including GC content, nucleotide asymmetries and expected vs observed nucleotide frequencies, and generate PCA and dendogram plots.
+- [blastp_clustering.R](blastp_clustering.R): plot a sequence similarity network (SSN) for a set of protein sequences using all-vs-all BLAST hits and cluster them extracting the connected components.
+- [pfam_ssn.R](pfam_ssn.R): plot a sequence similarity network (SSN) of domain sequences from a subset of related Pfam families (e.g. same clan) and color by Pfam family.
+- [pfam_pidmat.R](pfam_pidmat.R): create an all-vs-all sequence similarity matrix of domains in a protein (or few proteins) from a Pfam alignment, and extract the list of high-identity tandem repeat domains (HITRDs).
 
 ### Results
 
